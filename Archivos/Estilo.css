@@ -1,0 +1,106 @@
+#search_bar{
+	
+	border-radius: 20px
+	}		
+
+#username{
+	
+	border-radius: 20px
+	
+}
+
+#Emailadress{
+	
+	border-radius: 20px
+	
+}
+
+#password{
+	
+	border-radius: 20px
+	
+}
+
+#password1{
+	
+	border-radius: 20px
+	
+}
+
+.button{
+		width: 100%;
+		background: #463131;
+		border: 5px;
+		padding: 12px;
+		color: white;
+		margin: 15px 0;
+}
+
+
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+#header {
+	margin: auto;
+	max-width: 900px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.epe li a {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.epe > li > a{
+	display: block;
+	padding: 15px 80px;
+	color: white;
+	text-decoration: none;
+}
+
+.epe li a:hover {
+	background-color:#434343;
+}
+
+.epe > li {
+	float: left;
+}
+
+.epe {
+	background-color: rga(0, 0, 0, .5);
+}
+
+.epe li ul {
+	display: none;
+	position:absolute;
+	min-width: 140px;
+}
+
+.epe li:hover > ul {
+	display: block;	
+}
+
+.epe li ul li {
+	position:relative;
+}
+
+.epe li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+
+.epe {
+	list-style: none;
+	display: flex;
